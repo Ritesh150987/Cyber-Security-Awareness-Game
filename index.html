@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CyberSafe: A Week in the Breach</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="startMenu" style="position: relative;">
+
+    <button id="volumeToggle" onclick="toggleVolume()">🔊</button>
+
+    <button id="darkModeToggle" onclick="toggleDarkMode()">🌞 </button>
+    <div class="start-menu-content">
+      <h1>🔒 CyberSafe: A Week in the Breach</h1>
+      <p>Test your cybersecurity awareness!</p>
+      <button onclick="showDifficultyMenu()">Start Game</button>
+      <button onclick="quitGame()">Quit</button>
+    </div>
+  </div>
+
+  <div id="difficultyMenu" style="display:none;">
+    <h2>Select Difficulty</h2>
+    <button onclick="startGame('Easy')">Easy</button>
+    <button onclick="startGame('Normal')">Normal</button>
+    <button onclick="startGame('Hard')">Hard</button>
+    <button onclick="startGame('RealLife')">Real Life Mode</button>
+    <button onclick="goToMenu()">Back</button>
+  </div>
+
+  <div class="container" style="display:none; position:relative;">
+    <h1>CyberSafe</h1>
+    <div id="difficulty"></div>
+    <div id="dayTime"></div>
+    <div id="hearts"></div>
+    <div id="timer"></div>
+    <div id="scenario" class="fade"></div>
+    <div id="feedback" class="fade"></div>
+    <div class="buttons">
+      <button onclick="handleChoice('Legit')">Legit</button>
+      <button onclick="handleChoice('Scam')">Scam</button>
+    </div>
+    <button id="nextBtn" onclick="nextScenario()" style="display:none;">Next</button>
+
+    <div id="carTransitionOverlay" style="
+      display: none;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.15);
+      justify-content: center;
+      align-items: center;
+      z-index: 15;">
+      <img src="car-transition.gif" alt="Car moving transition"
+           style="width: 180px; height: auto; border-radius: 12px; box-shadow: 0 4px 24px #0008;">
+    </div>
+
+    <div id="dayOverlay" style="
+      display: none;
+      position: absolute; top:0; left:0; right:0; bottom:0; z-index:100;
+      align-items: center;
+      justify-content: center;">
+      <div id="dayOverlayInner"></div>
+    </div>
+  </div>
+
+  <div id="winScreen" style="display:none;">
+    <h1>🎉 You Survived the Week!</h1>
+    <p>Great job spotting scams and staying secure.</p>
+    <button onclick="goToMenu()">Main Menu</button>
+    <button onclick="quitGame()">Quit</button>
+  </div>
+
+  <div id="gameOverScreen" style="display:none;">
+    <h1>💀 Game Over</h1>
+    <p>You ran out of hearts!</p>
+    <button onclick="goToMenu()">Retry</button>
+    <button onclick="quitGame()">Quit</button>
+  </div>
+
+  <audio id="buttonSound" src="click.mp3" preload="auto"></audio>
+  <audio id="winSound" src="win.mp3" preload="auto"></audio>
+  <audio id="loseSound" src="lose.mp3" preload="auto"></audio>
+  <audio id="gainHeartSound" src="gain-heart.mp3" preload="auto"></audio>
+  <audio id="loseHeartSound" src="lose-heart.mp3" preload="auto"></audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e59de7, #4e1a50);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+.container,
+#startMenu,
+#difficultyMenu,
+#winScreen,
+#gameOverScreen {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: scale(0.98);
+  animation: fadeInScale 0.5s ease forwards;
+}
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #f9f9f9;
+}
+#difficulty {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #ffd700;
+  font-weight: bold;
+}
+#dayTime,
+#hearts,
+#timer,
+#scenario,
+#feedback {
+  margin: 15px 0;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+#hearts {
+  font-size: 24px;
+  color: #ff4d4d;
+  min-height: 34px;
+}
+#timer {
+  font-size: 22px;
+  color: #fff700;
+  font-weight: bold;
+}
+#scenario {
+  font-weight: bold;
+  font-size: 20px;
+}
+.buttons button,
+#nextBtn,
+#startMenu button,
+#difficultyMenu button,
+#winScreen button,
+#gameOverScreen button,
+#darkModeToggle,
+#volumeToggle {
+  margin: 10px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  background: #2fb4f1;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+button:active {
+  transform: scale(0.95);
+}
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+#nextBtn {
+  background-color: #4caf50;
+}
+#startMenu button:last-child,
+#difficultyMenu button:last-child,
+#winScreen button:last-child,
+#gameOverScreen button:last-child {
+  background-color: #e53935;
+}
+#startMenu {
+  position: relative;
+}
+#darkModeToggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  margin: 0;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #ffca28;
+  color: #4e1a50;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#darkModeToggle:hover {
+  opacity: 0.9;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+body.dark-mode #darkModeToggle {
+  background-color: #6a5acd;
+  color: #fff;
+}
+#volumeToggle {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin: 0;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #9ce5ff;
+  color: #1a4e50;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#volumeToggle:hover {
+  opacity: 0.9;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+body.dark-mode #volumeToggle {
+  background-color: #3b355a;
+  color: #fff;
+}
+.start-menu-content {
+  padding-top: 60px;
+}
+#feedback {
+  font-size: 18px;
+  font-weight: bold;
+  min-height: 30px;
+  animation: fadeSlideIn 0.4s ease;
+}
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+.fade.hide {
+  opacity: 0;
+}
+
+#dayOverlay {
+  background: radial-gradient(ellipse at center, #4f1262 40%, #e59de7 100%);
+  display: flex;
+}
+#dayOverlayInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: popIn 0.8s cubic-bezier(.75,0,.25,1);
+  box-shadow: 0 8px 32px #0008;
+  background: rgba(255,255,255,0.12);
+  border-radius: 22px;
+  padding: 48px 56px 42px 56px;
+}
+#dayOverlayInner .big-num {
+  font-size: 84px;
+  font-weight: bold;
+  color: #fff700;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 2px 12px #321a41b0);
+  text-shadow: 0 0 22px #ffd6fa, 0 2px 18px #7d45b3;
+  animation: growShine 0.8s cubic-bezier(.8,0,.25,1);
+}
+#dayOverlayInner .label {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 8px #551270a2;
+  letter-spacing: 2px;
+}
+#dayOverlayInner .icon {
+  font-size: 46px;
+  margin-bottom: 12px;
+  animation: bounceDayIcon 0.7s;
+}
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.7); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes growShine {
+  0%   { opacity: 0; transform: scale(0.5) rotate(-4deg);}
+  50%  { opacity: 0.7; transform: scale(1.14) rotate(3deg);}
+  90%  { opacity: 1;   transform: scale(1.04) rotate(-2deg);}
+  100% { opacity: 1;   transform: scale(1) rotate(0);}
+}
+@keyframes bounceDayIcon {
+  0%   { transform: translateY(-35px) scale(0.96);}
+  55%  { transform: translateY(12px)  scale(1.1);}
+  88%  { transform: translateY(-7px)  scale(1);}
+  100% { transform: translateY(0)     scale(1);}
+}
+
+body.dark-mode {
+  background: linear-gradient(135deg, #121212, #1e1e1e);
+  color: #ccc;
+}
+
+body.dark-mode .container,
+body.dark-mode #startMenu,
+body.dark-mode #difficultyMenu,
+body.dark-mode #winScreen,
+body.dark-mode #gameOverScreen {
+  background: rgba(30, 30, 30, 0.8);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode button {
+  background: #444;
+  color: #eee;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode button:hover {
+  opacity: 0.8;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode #hearts {
+  color: #ff6b6b;
+}
+
+body.dark-mode #timer {
+  color: #ffd700;
+}
+
+body.dark-mode h1, 
+body.dark-mode h2,
+body.dark-mode p,
+body.dark-mode #feedback {
+  color: #eee;
+}
+
+
+body.dark-mode #dayOverlay {
+  background: radial-gradient(ellipse at center, #1a002f 40%, #3b003b 100%);
+}
+
+body.dark-mode #dayOverlayInner {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px #fff1;
+}
+
+body.dark-mode #dayOverlayInner .big-num {
+  color: #fff9a6;
+  filter: drop-shadow(0 2px 12px #fff9a61c);
+  text-shadow: 0 0 22px #fff5d1, 0 2px 18px #b59d81;
+}
+
+body.dark-mode #dayOverlayInner .label {
+  color: #eee;
+  text-shadow: 0 1px 8px #bbad95cc;
+}
+

@@ -1,0 +1,1447 @@
+[
+  {
+    "text": "You receive a text message saying your package delivery failed and you need to pay a small fee to reschedule.",
+    "correct": "Scam",
+    "explanation": "Delivery scams use fake tracking numbers to steal payment information. Contact the courier directly."
+  },
+  {
+    "text": "Your password manager suggests generating a strong password when creating a new account.",
+    "correct": "Legit",
+    "explanation": "Password managers are designed to create and store strong, unique passwords securely."
+  },
+  {
+    "text": "An email claims your streaming subscription will be cancelled unless you update payment details immediately.",
+    "correct": "Scam",
+    "explanation": "Urgency tactics about subscription cancellation are common phishing methods. Log in directly to verify."
+  },
+  {
+    "text": "Your smartphone asks for your fingerprint to unlock a banking app you just opened.",
+    "correct": "Legit",
+    "explanation": "Biometric authentication is a standard security feature for sensitive apps."
+  },
+  {
+    "text": "A website displays a banner warning that your internet connection is not private.",
+    "correct": "Legit",
+    "explanation": "Browsers warn users about unsecured connections to protect privacy and data."
+  },
+  {
+    "text": "You get a call from someone claiming to be from the IRS threatening immediate arrest for unpaid taxes.",
+    "correct": "Scam",
+    "explanation": "Tax authorities don't make threatening calls or demand immediate payment. They communicate by mail."
+  },
+  {
+    "text": "Your email client marks an incoming message as spam and moves it to the spam folder.",
+    "correct": "Legit",
+    "explanation": "Email filters automatically detecting and quarantining spam is normal security behavior."
+  },
+  {
+    "text": "A social media message says you can make $500 a day working from home with no experience required.",
+    "correct": "Scam",
+    "explanation": "Get-rich-quick schemes and unrealistic income promises are classic scam tactics."
+  },
+  {
+    "text": "Your router's admin panel requires you to change the default password on first setup.",
+    "correct": "Legit",
+    "explanation": "Changing default passwords is essential for network security and is standard practice."
+  },
+  {
+    "text": "An email from your electric company includes a PDF attachment for your monthly bill.",
+    "correct": "Scam",
+    "explanation": "Be cautious of unexpected attachments, even from apparent utility companies. Verify through official channels."
+  },
+  {
+    "text": "Your web browser asks if you want to save a password after successful login.",
+    "correct": "Legit",
+    "explanation": "Modern browsers offer password saving as a convenience and security feature."
+  },
+  {
+    "text": "A pop-up claims you're the 1,000,000th visitor and have won a smartphone.",
+    "correct": "Scam",
+    "explanation": "Visitor count prize claims are fake and designed to collect personal information."
+  },
+  {
+    "text": "Your company's IT department emails all employees about a mandatory security training session.",
+    "correct": "Legit",
+    "explanation": "Regular security training is standard practice, but verify through official company channels."
+  },
+  {
+    "text": "A text message says your credit card has been blocked and provides a number to call immediately.",
+    "correct": "Scam",
+    "explanation": "Financial institutions don't typically notify via text about blocked cards. Call the official number."
+  },
+  {
+    "text": "Your operating system prompts you to install a critical security update.",
+    "correct": "Legit",
+    "explanation": "Operating system security updates are legitimate and important for system protection."
+  },
+  {
+    "text": "An email offers to sell you a college degree with no coursework required.",
+    "correct": "Scam",
+    "explanation": "Diploma mills offering degrees without work are scams and provide worthless credentials."
+  },
+  {
+    "text": "Your banking app sends a push notification about a transaction you just made.",
+    "correct": "Legit",
+    "explanation": "Real-time transaction notifications are legitimate security features from banks."
+  },
+  {
+    "text": "A website asks you to enable two-factor authentication for your account.",
+    "correct": "Legit",
+    "explanation": "Two-factor authentication is a recommended security practice for account protection."
+  },
+  {
+    "text": "You receive a message saying your social media account has been compromised and to click a link to secure it.",
+    "correct": "Scam",
+    "explanation": "Phishing messages use security fears to trick users. Log in directly to the platform instead."
+  },
+  {
+    "text": "Your firewall software blocks a suspicious incoming connection and notifies you.",
+    "correct": "Legit",
+    "explanation": "Firewall alerts about blocked connections are normal security notifications."
+  },
+  {
+    "text": "An email claims you've inherited money from a distant relative in another country.",
+    "correct": "Scam",
+    "explanation": "Inheritance scams prey on greed and use fake legal documents to seem legitimate."
+  },
+  {
+    "text": "Your smartphone requires a passcode after being idle for 10 minutes.",
+    "correct": "Legit",
+    "explanation": "Auto-lock features are standard security measures to protect device access."
+  },
+  {
+    "text": "A website certificate warning appears when visiting a financial institution's website.",
+    "correct": "Scam",
+    "explanation": "Certificate warnings on financial sites indicate potential security risks. Don't proceed."
+  },
+  {
+    "text": "Your email provider offers to encrypt your emails for enhanced privacy.",
+    "correct": "Legit",
+    "explanation": "Email encryption is a legitimate security feature offered by many providers."
+  },
+  {
+    "text": "A message claims you need to verify your identity to receive a government stimulus payment.",
+    "correct": "Scam",
+    "explanation": "Government payment scams use official-sounding language to steal personal information."
+  },
+  {
+    "text": "Your VPN application asks for permission to create a secure connection.",
+    "correct": "Legit",
+    "explanation": "VPN software legitimately needs permission to establish secure network connections."
+  },
+  {
+    "text": "An email says your online shopping account will be suspended unless you confirm your address.",
+    "correct": "Scam",
+    "explanation": "Account suspension threats are common phishing tactics. Log in directly to verify."
+  },
+  {
+    "text": "Your credit card company sends a text asking you to confirm a large purchase you just made.",
+    "correct": "Legit",
+    "explanation": "Fraud alerts for unusual purchases are legitimate security measures from card companies."
+  },
+  {
+    "text": "A website offers to check if your email has been involved in any data breaches.",
+    "correct": "Legit",
+    "explanation": "Legitimate breach checking services help users identify compromised accounts."
+  },
+  {
+    "text": "You receive a call offering to lower your interest rates if you provide your credit card information.",
+    "correct": "Scam",
+    "explanation": "Cold calls requesting financial information are scams. Legitimate offers don't require immediate disclosure."
+  },
+  {
+    "text": "Your antivirus software quarantines a file you downloaded and explains why it's dangerous.",
+    "correct": "Legit",
+    "explanation": "Antivirus quarantine actions with explanations are normal security functions."
+  },
+  {
+    "text": "An email claims your email account storage is full and you need to click a link to upgrade.",
+    "correct": "Scam",
+    "explanation": "Storage upgrade phishing emails trick users into providing login credentials."
+  },
+  {
+    "text": "Your mobile carrier sends a text about suspicious activity on your account and provides a customer service number.",
+    "correct": "Legit",
+    "explanation": "Carriers do send security alerts, but always verify the number independently."
+  },
+  {
+    "text": "A website asks you to complete a CAPTCHA to prove you're not a robot.",
+    "correct": "Legit",
+    "explanation": "CAPTCHA systems are legitimate tools used to prevent automated attacks."
+  },
+  {
+    "text": "You get an email offering to share confidential information about a celebrity for a fee.",
+    "correct": "Scam",
+    "explanation": "Celebrity gossip scams exploit curiosity and often lead to payment fraud."
+  },
+  {
+    "text": "Your computer's built-in security software scans downloaded files before opening them.",
+    "correct": "Legit",
+    "explanation": "Automatic file scanning is a standard security feature in modern operating systems."
+  },
+  {
+    "text": "A message says you've won a lottery you never entered and need to pay taxes upfront.",
+    "correct": "Scam",
+    "explanation": "Lottery scams require upfront payments for prizes that don't exist."
+  },
+  {
+    "text": "Your workplace requires you to use a badge to access the building.",
+    "correct": "Legit",
+    "explanation": "Physical access controls using badges are standard security measures in workplaces."
+  },
+  {
+    "text": "An email attachment scanner warns you about a potentially malicious file.",
+    "correct": "Legit",
+    "explanation": "Email security scanners protecting against malicious attachments are legitimate tools."
+  },
+  {
+    "text": "You receive a message claiming to be from law enforcement asking for personal information.",
+    "correct": "Scam",
+    "explanation": "Law enforcement doesn't typically request personal information via email or text."
+  },
+  {
+    "text": "Your cloud storage service asks you to verify your identity after unusual login activity.",
+    "correct": "Legit",
+    "explanation": "Identity verification after suspicious activity is a standard security practice."
+  },
+  {
+    "text": "A website offers to sell you prescription medications without a prescription.",
+    "correct": "Scam",
+    "explanation": "Illegal pharmacy sites often sell counterfeit or dangerous medications."
+  },
+  {
+    "text": "Your smart home device asks for permission to access your network.",
+    "correct": "Legit",
+    "explanation": "Smart devices legitimately need network access to function properly."
+  },
+  {
+    "text": "An email claims you need to update your software license or it will expire.",
+    "correct": "Scam",
+    "explanation": "Software license phishing attempts try to get users to download malware or pay fake fees."
+  },
+  {
+    "text": "Your password manager alerts you that one of your passwords was found in a data breach.",
+    "correct": "Legit",
+    "explanation": "Password managers monitoring for breached passwords is a legitimate security feature."
+  },
+  {
+    "text": "A text message offers a part-time job that requires you to receive and forward packages.",
+    "correct": "Scam",
+    "explanation": "Package forwarding scams use unwitting victims to launder stolen goods."
+  },
+  {
+    "text": "Your email client asks if you want to report a suspicious email as phishing.",
+    "correct": "Legit",
+    "explanation": "Email clients providing phishing reporting options help improve security for all users."
+  },
+  {
+    "text": "A website promises to increase your credit score by 200 points in 30 days.",
+    "correct": "Scam",
+    "explanation": "Credit repair scams make unrealistic promises and often charge fees for ineffective services."
+  },
+  {
+    "text": "Your router logs show multiple failed login attempts from unknown IP addresses.",
+    "correct": "Legit",
+    "explanation": "Router security logs showing attack attempts are legitimate security information."
+  },
+  {
+    "text": "An email says your subscription is about to renew and provides a link to cancel.",
+    "correct": "Scam",
+    "explanation": "Subscription scams use fake renewal notices to steal payment information."
+  },
+  {
+    "text": "Your device asks for permission before allowing an app to access your camera.",
+    "correct": "Legit",
+    "explanation": "Permission requests for device hardware access are standard privacy protections."
+  },
+  {
+    "text": "A message claims you can make money by clicking on advertisements.",
+    "correct": "Scam",
+    "explanation": "Paid-to-click scams rarely pay and often steal personal information instead."
+  },
+  {
+    "text": "Your security software automatically updates its virus definitions.",
+    "correct": "Legit",
+    "explanation": "Automatic security updates are essential for protection against new threats."
+  },
+  {
+    "text": "You receive an email asking you to donate to a disaster relief fund immediately.",
+    "correct": "Scam",
+    "explanation": "Disaster relief scams exploit charitable impulses. Verify organizations through official channels."
+  },
+  {
+    "text": "Your banking website requires you to answer security questions before accessing your account.",
+    "correct": "Legit",
+    "explanation": "Security questions are legitimate additional authentication measures used by banks."
+  },
+  {
+    "text": "A pop-up claims your computer's registry is corrupted and offers a free scan.",
+    "correct": "Scam",
+    "explanation": "Registry cleaner scams use fake diagnostic results to sell unnecessary software."
+  },
+  {
+    "text": "Your workplace VPN requires you to enter a token from your authenticator app.",
+    "correct": "Legit",
+    "explanation": "Multi-factor authentication using authenticator apps is a standard security practice."
+  },
+  {
+    "text": "An email offers to sell you a list of people's personal information.",
+    "correct": "Scam",
+    "explanation": "Personal information sales are often illegal and involve stolen data."
+  },
+  {
+    "text": "Your browser blocks a website and warns it may contain malware.",
+    "correct": "Legit",
+    "explanation": "Browser malware protection warnings are legitimate security features."
+  },
+  {
+    "text": "A message claims you can get rich by buying and selling a new cryptocurrency.",
+    "correct": "Scam",
+    "explanation": "Cryptocurrency investment scams promise unrealistic returns and often steal funds."
+  },
+  {
+    "text": "Your email server scans attachments for viruses before delivering them to your inbox.",
+    "correct": "Legit",
+    "explanation": "Email virus scanning is a standard security feature provided by email services."
+  },
+  {
+    "text": "You receive a call claiming your computer warranty is about to expire.",
+    "correct": "Scam",
+    "explanation": "Computer warranty scams try to sell fake extended warranties or gain remote access."
+  },
+  {
+    "text": "Your mobile app asks for permission to send you security-related notifications.",
+    "correct": "Legit",
+    "explanation": "Apps requesting notification permissions for security alerts is normal behavior."
+  },
+  {
+    "text": "An email promises to reveal secrets about making money online for a small fee.",
+    "correct": "Scam",
+    "explanation": "Get-rich-quick schemes charging for 'secret' information are scams."
+  },
+  {
+    "text": "Your device encrypts data automatically when it's stored.",
+    "correct": "Legit",
+    "explanation": "Automatic data encryption is a standard security feature in modern devices."
+  },
+  {
+    "text": "A website asks you to verify your age before accessing certain content.",
+    "correct": "Legit",
+    "explanation": "Age verification is a legitimate requirement for age-restricted content."
+  },
+  {
+    "text": "You get a message saying your social security number has been suspended.",
+    "correct": "Scam",
+    "explanation": "Social security numbers cannot be suspended. This is a common government impersonation scam."
+  },
+  {
+    "text": "Your cloud backup service encrypts your files before uploading them.",
+    "correct": "Legit",
+    "explanation": "Client-side encryption before cloud upload is a good security practice."
+  },
+  {
+    "text": "An email offers to help you get a loan with no credit check required.",
+    "correct": "Scam",
+    "explanation": "No credit check loan offers often involve predatory lending or upfront fee scams."
+  },
+  {
+    "text": "Your network administrator sends an email about new security policies.",
+    "correct": "Legit",
+    "explanation": "Security policy updates from IT are legitimate, but verify through official channels."
+  },
+  {
+    "text": "A message claims you can earn money by testing websites from home.",
+    "correct": "Scam",
+    "explanation": "While legitimate website testing jobs exist, unsolicited offers are often scams."
+  },
+  {
+    "text": "Your device requires you to enter a PIN after multiple failed unlock attempts.",
+    "correct": "Legit",
+    "explanation": "Security delays after failed attempts are legitimate protection against brute force attacks."
+  },
+  {
+    "text": "You receive an email saying your internet service will be disconnected for non-payment.",
+    "correct": "Scam",
+    "explanation": "ISP disconnection threats are common phishing tactics. Verify through official channels."
+  },
+  {
+    "text": "Your software asks for administrator privileges to install an update.",
+    "correct": "Legit",
+    "explanation": "Administrative access for software updates is often necessary and legitimate."
+  },
+  {
+    "text": "A website offers to sell you followers for your social media account.",
+    "correct": "Scam",
+    "explanation": "Fake follower services violate platform terms and often steal payment information."
+  },
+  {
+    "text": "Your security system logs all access attempts to your network.",
+    "correct": "Legit",
+    "explanation": "Access logging is a standard security practice for monitoring and forensics."
+  },
+  {
+    "text": "An email claims you need to update your voter registration information online.",
+    "correct": "Scam",
+    "explanation": "Voter registration scams steal personal information. Use official government websites only."
+  },
+  {
+    "text": "Your app store requires you to verify your identity before making purchases.",
+    "correct": "Legit",
+    "explanation": "Purchase verification is a legitimate security measure to prevent unauthorized transactions."
+  },
+  {
+    "text": "A message offers to help you recover cryptocurrency you lost in a scam.",
+    "correct": "Scam",
+    "explanation": "Cryptocurrency recovery scams target previous victims with false promises of fund recovery."
+  },
+  {
+    "text": "Your browser warns you before downloading executable files.",
+    "correct": "Legit",
+    "explanation": "Download warnings for potentially dangerous files are legitimate security features."
+  },
+  {
+    "text": "You receive a call claiming your utility account is overdue and service will be shut off today.",
+    "correct": "Scam",
+    "explanation": "Utility shutdown scams use urgency to pressure immediate payment. Verify independently."
+  },
+  {
+    "text": "Your email client automatically moves emails from unknown senders to a separate folder.",
+    "correct": "Legit",
+    "explanation": "Email filtering based on sender reputation is a standard security feature."
+  },
+  {
+    "text": "A website promises to help you get revenge on someone who wronged you.",
+    "correct": "Scam",
+    "explanation": "Revenge services are often scams and may involve illegal activities."
+  },
+  {
+    "text": "Your device asks for your current password before allowing you to change it.",
+    "correct": "Legit",
+    "explanation": "Password verification before changes is a standard security practice."
+  },
+  {
+    "text": "An email claims you've been selected for a special government program.",
+    "correct": "Scam",
+    "explanation": "Government program scams use official-sounding language to steal personal information."
+  },
+  {
+    "text": "Your security software scans USB drives when you plug them in.",
+    "correct": "Legit",
+    "explanation": "Automatic USB scanning helps protect against malware from removable media."
+  },
+  {
+    "text": "A message offers to sell you a device that can boost your WiFi signal illegally.",
+    "correct": "Scam",
+    "explanation": "Illegal signal boosters are often scams and may violate communications regulations."
+  },
+  {
+    "text": "Your online account asks you to verify your email address after signing up.",
+    "correct": "Legit",
+    "explanation": "Email verification after registration is a standard security and anti-spam measure."
+  },
+  {
+    "text": "You receive an email claiming your domain registration is about to expire.",
+    "correct": "Scam",
+    "explanation": "Domain renewal scams target website owners with fake expiration notices."
+  },
+  {
+    "text": "Your firewall asks for permission before allowing a new application to access the internet.",
+    "correct": "Legit",
+    "explanation": "Firewall application permissions are legitimate security controls."
+  },
+  {
+    "text": "A website offers to help you fake your employment history for job applications.",
+    "correct": "Scam",
+    "explanation": "Employment history falsification services are fraudulent and can have legal consequences."
+  },
+  {
+    "text": "Your backup software verifies the integrity of backed-up files.",
+    "correct": "Legit",
+    "explanation": "Backup verification ensures data integrity and is a standard feature."
+  },
+  {
+    "text": "An email says you need to confirm your identity to receive a prize from a contest you entered.",
+    "correct": "Scam",
+    "explanation": "Prize confirmation scams steal personal information even when referencing real contests."
+  },
+  {
+    "text": "Your smartphone requires biometric authentication to access sensitive apps.",
+    "correct": "Legit",
+    "explanation": "Biometric app locks are legitimate security features for protecting sensitive data."
+  },
+  {
+    "text": "A message claims you can make money by sharing your internet connection.",
+    "correct": "Scam",
+    "explanation": "Internet sharing schemes may involve illegal activities or compromise your network security."
+  },
+  {
+    "text": "Your router firmware automatically updates to fix security vulnerabilities.",
+    "correct": "Legit",
+    "explanation": "Automatic firmware updates are important for maintaining network security."
+  },
+  {
+    "text": "You receive a call offering to consolidate all your debts into one payment.",
+    "correct": "Scam",
+    "explanation": "Debt consolidation scams often charge fees without providing legitimate services."
+  },
+  {
+    "text": "Your password manager generates a unique password for each of your accounts.",
+    "correct": "Legit",
+    "explanation": "Unique password generation is a key security feature of password managers."
+  },
+  {
+    "text": "An email offers to sell you personal information about your neighbors.",
+    "correct": "Scam",
+    "explanation": "Personal information sales are often illegal and involve privacy violations."
+  },
+  {
+    "text": "Your device automatically locks after a period of inactivity.",
+    "correct": "Legit",
+    "explanation": "Auto-lock features are standard security measures to prevent unauthorized access."
+  },
+  {
+    "text": "A website promises to help you get unlimited free trials of streaming services.",
+    "correct": "Scam",
+    "explanation": "Unlimited trial scams often involve credit card fraud or terms of service violations."
+  },
+  {
+    "text": "Your email provider offers two-factor authentication using SMS codes.",
+    "correct": "Legit",
+    "explanation": "SMS-based two-factor authentication is a legitimate security feature, though app-based is preferred."
+  },
+  {
+    "text": "You get a message saying your insurance policy is about to lapse.",
+    "correct": "Scam",
+    "explanation": "Insurance lapse scams target policyholders with fake renewal notices."
+  },
+  {
+    "text": "Your computer's built-in firewall blocks suspicious network connections.",
+    "correct": "Legit",
+    "explanation": "Firewall protection blocking suspicious connections is normal security behavior."
+  },
+  {
+    "text": "An email offers to help you get a fake ID or passport.",
+    "correct": "Scam",
+    "explanation": "Fake document services are illegal and often steal money without delivering."
+  },
+  {
+    "text": "Your mobile carrier sends a security alert about a new device logging into your account.",
+    "correct": "Legit",
+    "explanation": "New device alerts are legitimate security notifications, but verify independently."
+  },
+  {
+    "text": "A message claims you can earn money by completing simple tasks online.",
+    "correct": "Scam",
+    "explanation": "Task completion scams often require upfront payments or steal personal information."
+  },
+  {
+    "text": "Your security camera system sends alerts when it detects motion.",
+    "correct": "Legit",
+    "explanation": "Motion detection alerts are standard features of security camera systems."
+  },
+  {
+    "text": "You receive an email saying your professional license needs to be renewed online.",
+    "correct": "Scam",
+    "explanation": "Professional license renewal scams target licensed professionals with fake renewal notices."
+  },
+  {
+    "text": "Your web browser asks if you want to save your payment information for future purchases.",
+    "correct": "Legit",
+    "explanation": "Browser payment saving is a legitimate convenience feature with security measures."
+  },
+  {
+    "text": "A website offers to help you hide your criminal record from background checks.",
+    "correct": "Scam",
+    "explanation": "Criminal record hiding services are often scams and may involve illegal activities."
+  },
+  {
+    "text": "Your antivirus software runs scheduled scans of your computer.",
+    "correct": "Legit",
+    "explanation": "Scheduled virus scans are a standard feature of antivirus software."
+  },
+  {
+    "text": "An email claims you need to verify your account to continue using a service.",
+    "correct": "Scam",
+    "explanation": "Account verification phishing attempts try to steal login credentials."
+  },
+  {
+    "text": "Your device encrypts data when it's transmitted over the internet.",
+    "correct": "Legit",
+    "explanation": "Data encryption during transmission is a standard security practice."
+  },
+  {
+    "text": "A message offers to sell you access to streaming services at a discount.",
+    "correct": "Scam",
+    "explanation": "Discounted streaming access often involves stolen accounts or payment fraud."
+  },
+  {
+    "text": "Your email client warns you about suspicious links before you click them.",
+    "correct": "Legit",
+    "explanation": "Link safety warnings are legitimate security features in modern email clients."
+  },
+  {
+    "text": "You receive a call offering to help you get approved for a credit card with no credit check.",
+    "correct": "Scam",
+    "explanation": "No credit check credit card offers are often predatory or involve upfront fees."
+  },
+  {
+    "text": "Your network monitoring tool alerts you to unusual traffic patterns.",
+    "correct": "Legit",
+    "explanation": "Network monitoring alerts help identify potential security threats or performance issues."
+  },
+  {
+    "text": "An email promises to help you get a government contract with insider information.",
+    "correct": "Scam",
+    "explanation": "Government contract scams exploit business interests and often involve fake documents."
+  },
+  {
+    "text": "Your device requires you to confirm your identity before accessing sensitive settings.",
+    "correct": "Legit",
+    "explanation": "Identity verification for sensitive settings is a standard security measure."
+  },
+  {
+    "text": "A website offers to help you cheat on online exams or assignments.",
+    "correct": "Scam",
+    "explanation": "Academic cheating services are fraudulent and can have serious academic consequences."
+  },
+  {
+    "text": "Your backup system automatically creates restore points before major changes.",
+    "correct": "Legit",
+    "explanation": "Automatic restore points are a standard data protection feature."
+  },
+  {
+    "text": "You get a message saying your car warranty is about to expire.",
+    "correct": "Scam",
+    "explanation": "Car warranty extension scams are common telemarketing frauds."
+  },
+  {
+    "text": "Your smartphone asks for permission before allowing apps to access your location.",
+    "correct": "Legit",
+    "explanation": "Location permission requests are legitimate privacy protections."
+  },
+  {
+    "text": "An email offers to help you get a job by paying a placement fee.",
+    "correct": "Scam",
+    "explanation": "Legitimate job placement services don't typically require upfront fees from job seekers."
+  },
+  {
+    "text": "Your security software quarantines suspicious files and asks for your decision.",
+    "correct": "Legit",
+    "explanation": "Quarantine with user confirmation is a standard security software feature."
+  },
+  {
+    "text": "A message claims you can make money by receiving packages at your address.",
+    "correct": "Scam",
+    "explanation": "Package receiving scams often involve money laundering or stolen goods."
+  },
+  {
+    "text": "Your email server requires authentication before sending emails.",
+    "correct": "Legit",
+    "explanation": "SMTP authentication is a standard security measure to prevent email abuse."
+  },
+  {
+    "text": "You receive a call claiming your computer is sending error messages to their servers.",
+    "correct": "Scam",
+    "explanation": "Computer error message scams are used to gain remote access to victims' computers."
+  },
+  {
+    "text": "Your cloud storage service asks you to verify your identity after suspicious activity.",
+    "correct": "Legit",
+    "explanation": "Identity verification after suspicious activity is a legitimate security measure."
+  },
+  {
+    "text": "A website promises to help you get revenge on an ex-partner.",
+    "correct": "Scam",
+    "explanation": "Revenge services are often scams and may involve harassment or illegal activities."
+  },
+  {
+    "text": "Your device automatically updates its security certificates.",
+    "correct": "Legit",
+    "explanation": "Automatic certificate updates are important for maintaining secure connections."
+  },
+  {
+    "text": "An email claims you need to update your health insurance information.",
+    "correct": "Scam",
+    "explanation": "Health insurance update scams steal personal and medical information."
+  },
+  {
+    "text": "Your password manager alerts you to weak passwords in your accounts.",
+    "correct": "Legit",
+    "explanation": "Weak password identification is a legitimate security feature of password managers."
+  },
+  {
+    "text": "A message offers to sell you hacking tools or services.",
+    "correct": "Scam",
+    "explanation": "Hacking tool sales are often scams and may involve illegal activities."
+  },
+  {
+    "text": "Your router logs show your network traffic patterns for security analysis.",
+    "correct": "Legit",
+    "explanation": "Network traffic logging is a standard security monitoring practice."
+  },
+  {
+    "text": "You receive an email saying your membership in a professional organization is expiring.",
+    "correct": "Scam",
+    "explanation": "Professional membership renewal scams target professionals with fake expiration notices."
+  },
+  {
+    "text": "Your device asks for your PIN before allowing access to stored payment methods.",
+    "correct": "Legit",
+    "explanation": "PIN protection for payment methods is a legitimate security feature."
+  },
+  {
+    "text": "A website offers to help you get fake reviews for your business.",
+    "correct": "Scam",
+    "explanation": "Fake review services violate platform terms and often steal payment without delivering."
+  },
+  {
+    "text": "Your email client automatically scans attachments for malware.",
+    "correct": "Legit",
+    "explanation": "Automatic malware scanning of attachments is a standard email security feature."
+  },
+  {
+    "text": "An email claims you've been selected for a secret shopper program.",
+    "correct": "Scam",
+    "explanation": "Secret shopper scams often involve fake checks or require upfront payments."
+  },
+  {
+    "text": "Your security system requires multiple forms of authentication to disarm.",
+    "correct": "Legit",
+    "explanation": "Multi-factor authentication for security systems is a standard security practice."
+  },
+  {
+    "text": "A message offers to help you get a loan using your car as collateral.",
+    "correct": "Scam",
+    "explanation": "Title loan scams often involve predatory lending practices and excessive fees."
+  },
+  {
+    "text": "Your operating system asks for permission before installing new hardware drivers.",
+    "correct": "Legit",
+    "explanation": "Driver installation permissions are legitimate security measures to prevent malicious software."
+  },
+  {
+    "text": "You receive an email claiming your recent online purchase couldn't be processed.",
+    "correct": "Scam",
+    "explanation": "Purchase processing scams try to steal payment information by mimicking real transactions."
+  },
+  {
+    "text": "Your web browser saves encrypted versions of your passwords locally.",
+    "correct": "Legit",
+    "explanation": "Local password encryption is a standard security practice in modern browsers."
+  },
+  {
+    "text": "A website offers to help you get a fake diploma from a real university.",
+    "correct": "Scam",
+    "explanation": "Fake diploma services are fraudulent and can have serious legal and career consequences."
+  },
+  {
+    "text": "Your firewall software updates its threat detection rules automatically.",
+    "correct": "Legit",
+    "explanation": "Automatic threat detection updates are essential for maintaining security effectiveness."
+  },
+  {
+    "text": "An email says you need to confirm your shipping address for a package delivery.",
+    "correct": "Scam",
+    "explanation": "Shipping confirmation scams steal personal information and may lead to identity theft."
+  },
+  {
+    "text": "Your mobile device asks for your fingerprint to authorize a payment.",
+    "correct": "Legit",
+    "explanation": "Biometric payment authorization is a legitimate security feature for financial transactions."
+  },
+  {
+    "text": "A message claims you can earn money by participating in paid surveys.",
+    "correct": "Scam",
+    "explanation": "While legitimate survey sites exist, most unsolicited survey offers are scams or time-wasters."
+  },
+  {
+    "text": "Your antivirus software runs real-time protection in the background.",
+    "correct": "Legit",
+    "explanation": "Real-time virus protection is a core feature of antivirus software."
+  },
+  {
+    "text": "You receive a call offering to help you reduce your student loan debt.",
+    "correct": "Scam",
+    "explanation": "Student loan debt relief scams often charge fees for services available for free."
+  },
+  {
+    "text": "Your email provider filters spam automatically based on content analysis.",
+    "correct": "Legit",
+    "explanation": "Automated spam filtering is a standard feature of email services."
+  },
+  {
+    "text": "A website offers to sell you personal information about public figures.",
+    "correct": "Scam",
+    "explanation": "Personal information sales often involve illegally obtained data and privacy violations."
+  },
+  {
+    "text": "Your device requires you to enter a PIN after being inactive for a set period.",
+    "correct": "Legit",
+    "explanation": "Inactivity locks are standard security features to prevent unauthorized access."
+  },
+  {
+    "text": "An email claims your email account will be deleted unless you verify it immediately.",
+    "correct": "Scam",
+    "explanation": "Account deletion threats are common phishing tactics using urgency to steal credentials."
+  },
+  {
+    "text": "Your security camera system stores footage locally and encrypts it.",
+    "correct": "Legit",
+    "explanation": "Local encrypted storage is a legitimate security practice for surveillance systems."
+  },
+  {
+    "text": "A message offers to help you get a patent for your invention quickly.",
+    "correct": "Scam",
+    "explanation": "Patent scams often charge excessive fees for services that don't guarantee patent approval."
+  },
+  {
+    "text": "Your router requires you to change the default admin password during setup.",
+    "correct": "Legit",
+    "explanation": "Mandatory password changes from defaults are essential security requirements."
+  },
+  {
+    "text": "You receive an email saying your tax refund is ready for direct deposit.",
+    "correct": "Scam",
+    "explanation": "Tax refund scams steal banking information by mimicking government communications."
+  },
+  {
+    "text": "Your smartphone encrypts data when syncing with cloud services.",
+    "correct": "Legit",
+    "explanation": "Encryption during cloud sync is a standard security practice for protecting data."
+  },
+  {
+    "text": "A website promises to help you get unlimited mobile data for a low price.",
+    "correct": "Scam",
+    "explanation": "Unlimited data scams often involve account theft or terms of service violations."
+  },
+  {
+    "text": "Your backup software verifies your identity before allowing data restoration.",
+    "correct": "Legit",
+    "explanation": "Identity verification for data restoration is a legitimate security measure."
+  },
+  {
+    "text": "An email offers to help you get a green card through a special program.",
+    "correct": "Scam",
+    "explanation": "Immigration scams exploit people's desires for legal status with fake programs."
+  },
+  {
+    "text": "Your device automatically downloads and installs critical security patches.",
+    "correct": "Legit",
+    "explanation": "Automatic security updates are important for maintaining device security."
+  },
+  {
+    "text": "A message claims you can make money by sharing your personal data.",
+    "correct": "Scam",
+    "explanation": "Data sharing schemes often result in identity theft or privacy violations."
+  },
+  {
+    "text": "Your email client warns you about emails from recently created domains.",
+    "correct": "Legit",
+    "explanation": "New domain warnings help identify potential phishing attempts from suspicious sources."
+  },
+  {
+    "text": "You receive a call offering to help you get approved for disability benefits.",
+    "correct": "Scam",
+    "explanation": "Disability benefit scams charge fees for services available for free from government agencies."
+  },
+  {
+    "text": "Your password manager requires your master password to access stored credentials.",
+    "correct": "Legit",
+    "explanation": "Master password protection is a fundamental security feature of password managers."
+  },
+  {
+    "text": "A website offers to help you get fake references for job applications.",
+    "correct": "Scam",
+    "explanation": "Fake reference services are fraudulent and can have serious employment consequences."
+  },
+  {
+    "text": "Your network monitoring system alerts you to unusual data transfers.",
+    "correct": "Legit",
+    "explanation": "Data transfer monitoring helps identify potential security breaches or policy violations."
+  },
+  {
+    "text": "An email claims you need to update your voter registration before the next election.",
+    "correct": "Scam",
+    "explanation": "Voter registration scams steal personal information. Use official government websites only."
+  },
+  {
+    "text": "Your smartphone asks for permission before allowing apps to access your microphone.",
+    "correct": "Legit",
+    "explanation": "Microphone permission requests are legitimate privacy protections."
+  },
+  {
+    "text": "A message offers to sell you software that can hack into any computer.",
+    "correct": "Scam",
+    "explanation": "Hacking software sales are often scams and may involve illegal activities."
+  },
+  {
+    "text": "Your security system logs all entry and exit attempts.",
+    "correct": "Legit",
+    "explanation": "Access logging is a standard security practice for monitoring and forensics."
+  },
+  {
+    "text": "You receive an email saying your professional certification needs to be renewed.",
+    "correct": "Scam",
+    "explanation": "Professional certification renewal scams target certified professionals with fake notices."
+  },
+  {
+    "text": "Your device requires biometric authentication to access encrypted files.",
+    "correct": "Legit",
+    "explanation": "Biometric protection for encrypted files is a legitimate security feature."
+  },
+  {
+    "text": "A website promises to help you get a job in another country without work permits.",
+    "correct": "Scam",
+    "explanation": "Illegal employment schemes often involve document fraud and exploitation."
+  },
+  {
+    "text": "Your email server requires encrypted connections for sending and receiving emails.",
+    "correct": "Legit",
+    "explanation": "Email encryption requirements are standard security practices for protecting communications."
+  },
+  {
+    "text": "An email claims you've been selected for a special investment opportunity.",
+    "correct": "Scam",
+    "explanation": "Investment opportunity scams often promise high returns with little risk."
+  },
+  {
+    "text": "Your cloud storage service automatically backs up your files with versioning.",
+    "correct": "Legit",
+    "explanation": "Automatic backup with versioning is a standard feature of cloud storage services."
+  },
+  {
+    "text": "A message offers to help you get a fake social security number.",
+    "correct": "Scam",
+    "explanation": "Fake social security number services are illegal and often steal money without delivering."
+  },
+  {
+    "text": "Your router firmware includes automatic security updates.",
+    "correct": "Legit",
+    "explanation": "Automatic firmware updates are important for maintaining network security."
+  },
+  {
+    "text": "You receive a call claiming you owe money to a collection agency.",
+    "correct": "Scam",
+    "explanation": "Debt collection scams often target people with fake debts and threaten legal action."
+  },
+  {
+    "text": "Your device encrypts all data stored on its internal memory.",
+    "correct": "Legit",
+    "explanation": "Full device encryption is a standard security feature in modern devices."
+  },
+  {
+    "text": "A website offers to help you get unlimited free trials by creating fake accounts.",
+    "correct": "Scam",
+    "explanation": "Fake account creation violates terms of service and often involves fraud."
+  },
+  {
+    "text": "Your email client automatically verifies sender authenticity using digital signatures.",
+    "correct": "Legit",
+    "explanation": "Digital signature verification is a legitimate email security feature."
+  },
+  {
+    "text": "An email says you need to confirm your identity to receive a government stimulus.",
+    "correct": "Scam",
+    "explanation": "Government stimulus scams steal personal information by mimicking official communications."
+  },
+  {
+    "text": "Your security software scans downloaded files in a sandbox environment.",
+    "correct": "Legit",
+    "explanation": "Sandbox scanning is an advanced security technique for safely analyzing potential threats."
+  },
+  {
+    "text": "A message claims you can make money by allowing others to use your identity.",
+    "correct": "Scam",
+    "explanation": "Identity lending schemes often involve identity theft and financial fraud."
+  },
+  {
+    "text": "Your backup system creates incremental backups to save storage space.",
+    "correct": "Legit",
+    "explanation": "Incremental backups are a standard feature for efficient backup management."
+  },
+  {
+    "text": "You receive an email offering to help you get a government grant for your business.",
+    "correct": "Scam",
+    "explanation": "Government grant scams charge fees for information available for free from official sources."
+  },
+  {
+    "text": "Your device asks for your current PIN before allowing you to change it.",
+    "correct": "Legit",
+    "explanation": "PIN verification before changes is a standard security practice."
+  },
+  {
+    "text": "A website offers to sell you prescription glasses without an eye exam.",
+    "correct": "Scam",
+    "explanation": "Prescription glasses without proper examination may be illegal and potentially harmful."
+  },
+  {
+    "text": "Your firewall monitors network traffic for suspicious patterns.",
+    "correct": "Legit",
+    "explanation": "Traffic pattern monitoring is a standard firewall security feature."
+  },
+  {
+    "text": "An email claims your rental application has been approved and requests a deposit.",
+    "correct": "Scam",
+    "explanation": "Rental scams often involve fake properties and steal deposits from victims."
+  },
+  {
+    "text": "Your smartphone requires authentication before accessing your digital wallet.",
+    "correct": "Legit",
+    "explanation": "Digital wallet authentication is a legitimate security measure for financial protection."
+  },
+  {
+    "text": "A message offers to help you get a fake passport for international travel.",
+    "correct": "Scam",
+    "explanation": "Fake passport services are illegal and often steal money without delivering documents."
+  },
+  {
+    "text": "Your antivirus software quarantines suspicious files and provides detailed reports.",
+    "correct": "Legit",
+    "explanation": "Quarantine with detailed reporting is a standard antivirus security feature."
+  },
+  {
+    "text": "You receive a call offering to help you get a refund for a product you never bought.",
+    "correct": "Scam",
+    "explanation": "Fake refund scams often require personal information or upfront payments."
+  },
+  {
+    "text": "Your email provider uses machine learning to detect and block spam.",
+    "correct": "Legit",
+    "explanation": "Machine learning spam detection is a modern and effective email security feature."
+  },
+  {
+    "text": "A website promises to help you get a fake driver's license.",
+    "correct": "Scam",
+    "explanation": "Fake driver's license services are illegal and often steal money without delivering."
+  },
+  {
+    "text": "Your device automatically locks when it detects unusual usage patterns.",
+    "correct": "Legit",
+    "explanation": "Behavioral security locks are advanced features that protect against unauthorized access."
+  },
+  {
+    "text": "An email says you need to update your Medicare information to continue coverage.",
+    "correct": "Scam",
+    "explanation": "Medicare update scams steal personal and medical information from seniors."
+  },
+  {
+    "text": "Your security camera system sends alerts when it detects unfamiliar faces.",
+    "correct": "Legit",
+    "explanation": "Facial recognition alerts are legitimate features of advanced security systems."
+  },
+  {
+    "text": "A message claims you can earn money by installing software on your computer.",
+    "correct": "Scam",
+    "explanation": "Software installation schemes often involve malware or use your computer for illegal activities."
+  },
+  {
+    "text": "Your router creates a guest network that's isolated from your main network.",
+    "correct": "Legit",
+    "explanation": "Guest network isolation is a standard security feature for protecting your main network."
+  },
+  {
+    "text": "You receive an email claiming your subscription to a service you don't use is expiring.",
+    "correct": "Scam",
+    "explanation": "Fake subscription expiration notices are used to steal payment information."
+  },
+  {
+    "text": "Your smartphone encrypts data during backup to cloud services.",
+    "correct": "Legit",
+    "explanation": "Backup encryption is a standard security practice for protecting data in transit and storage."
+  },
+  {
+    "text": "A website offers to help you get a fake medical prescription.",
+    "correct": "Scam",
+    "explanation": "Fake prescription services are illegal and potentially dangerous to health."
+  },
+  {
+    "text": "Your email client allows you to digitally sign emails for authenticity.",
+    "correct": "Legit",
+    "explanation": "Digital email signatures are legitimate features for verifying sender identity."
+  },
+  {
+    "text": "An email says you need to verify your employment information for tax purposes.",
+    "correct": "Scam",
+    "explanation": "Employment verification scams steal personal information by mimicking official requests."
+  },
+  {
+    "text": "Your security software monitors system files for unauthorized changes.",
+    "correct": "Legit",
+    "explanation": "System file monitoring is a standard security feature for detecting malware."
+  },
+  {
+    "text": "A message offers to sell you access to premium streaming content at a discount.",
+    "correct": "Scam",
+    "explanation": "Discounted premium content often involves stolen accounts or piracy."
+  },
+  {
+    "text": "Your device requires you to confirm your identity before factory resetting.",
+    "correct": "Legit",
+    "explanation": "Identity confirmation before factory reset is a security measure to prevent data theft."
+  },
+  {
+    "text": "You receive a call offering to help you get a business loan with no collateral.",
+    "correct": "Scam",
+    "explanation": "No collateral business loan offers often involve advance fee fraud."
+  },
+  {
+    "text": "Your password manager syncs your passwords securely across all your devices.",
+    "correct": "Legit",
+    "explanation": "Secure password synchronization is a standard feature of password managers."
+  },
+  {
+    "text": "A website promises to help you get fake medical records.",
+    "correct": "Scam",
+    "explanation": "Fake medical record services are illegal and can have serious health and legal consequences."
+  },
+  {
+    "text": "Your network monitoring system tracks all device connections and activities.",
+    "correct": "Legit",
+    "explanation": "Network activity monitoring is a standard security practice for threat detection."
+  },
+  {
+    "text": "An email claims you need to update your insurance policy information.",
+    "correct": "Scam",
+    "explanation": "Insurance policy update scams steal personal information by mimicking legitimate insurers."
+  },
+  {
+    "text": "Your smartphone asks for permission before allowing apps to access your contacts.",
+    "correct": "Legit",
+    "explanation": "Contact permission requests are legitimate privacy protections."
+  },
+  {
+    "text": "A message offers to help you get a fake birth certificate.",
+    "correct": "Scam",
+    "explanation": "Fake birth certificate services are illegal and often steal money without delivering."
+  },
+  {
+    "text": "Your security system requires multiple authentication factors to access recordings.",
+    "correct": "Legit",
+    "explanation": "Multi-factor authentication for security recordings is a legitimate protection measure."
+  },
+  {
+    "text": "You receive an email saying your professional license is about to be suspended.",
+    "correct": "Scam",
+    "explanation": "Professional license suspension scams create urgency to steal personal information."
+  },
+  {
+    "text": "Your device automatically creates secure backups of your encryption keys.",
+    "correct": "Legit",
+    "explanation": "Secure key backup is a standard security feature for data recovery."
+  },
+  {
+    "text": "A website offers to help you get a fake marriage certificate.",
+    "correct": "Scam",
+    "explanation": "Fake marriage certificate services are illegal and often steal money without delivering."
+  },
+  {
+    "text": "Your email server requires sender authentication to prevent spoofing.",
+    "correct": "Legit",
+    "explanation": "Sender authentication is a standard email security measure to prevent impersonation."
+  },
+  {
+    "text": "An email claims you need to confirm your address for a package you're expecting.",
+    "correct": "Scam",
+    "explanation": "Package confirmation scams steal personal information by mimicking real deliveries."
+  },
+  {
+    "text": "Your antivirus software uses behavioral analysis to detect unknown threats.",
+    "correct": "Legit",
+    "explanation": "Behavioral analysis is an advanced security technique for detecting new malware."
+  },
+  {
+    "text": "A message offers to sell you fake currency that looks real.",
+    "correct": "Scam",
+    "explanation": "Counterfeit currency sales are illegal and often involve law enforcement stings."
+  },
+  {
+    "text": "Your device encrypts all communications with remote servers.",
+    "correct": "Legit",
+    "explanation": "Communication encryption is a standard security practice for protecting data in transit."
+  },
+  {
+    "text": "You receive a call offering to help you get a reverse mortgage.",
+    "correct": "Scam",
+    "explanation": "Reverse mortgage scams often target seniors with predatory lending practices."
+  },
+  {
+    "text": "Your backup system tests restore procedures regularly to ensure data integrity.",
+    "correct": "Legit",
+    "explanation": "Regular restore testing is a standard practice for ensuring backup reliability."
+  },
+  {
+    "text": "A website promises to help you get fake academic transcripts.",
+    "correct": "Scam",
+    "explanation": "Fake transcript services are fraudulent and can have serious academic and career consequences."
+  },
+  {
+    "text": "Your firewall logs all blocked connection attempts for security analysis.",
+    "correct": "Legit",
+    "explanation": "Connection logging is a standard firewall feature for security monitoring."
+  },
+  {
+    "text": "An email says you need to verify your identity to receive a pension payment.",
+    "correct": "Scam",
+    "explanation": "Pension payment scams target retirees with fake verification requests."
+  },
+  {
+    "text": "Your smartphone requires authentication before allowing system modifications.",
+    "correct": "Legit",
+    "explanation": "System modification authentication is a legitimate security measure."
+  },
+  {
+    "text": "A message claims you can make money by renting out your identity for credit applications.",
+    "correct": "Scam",
+    "explanation": "Identity rental schemes often involve identity theft and credit fraud."
+  },
+  {
+    "text": "Your security software automatically updates its malware definitions.",
+    "correct": "Legit",
+    "explanation": "Automatic malware definition updates are essential for maintaining security effectiveness."
+  },
+  {
+    "text": "You receive an email offering to help you get a fake work visa.",
+    "correct": "Scam",
+    "explanation": "Fake work visa services are illegal and often steal money without delivering documents."
+  },
+  {
+    "text": "Your email client encrypts stored emails locally on your device.",
+    "correct": "Legit",
+    "explanation": "Local email encryption is a standard security feature for protecting stored communications."
+  },
+  {
+    "text": "A website offers to sell you personal information from social media profiles.",
+    "correct": "Scam",
+    "explanation": "Social media data sales often involve privacy violations and illegally obtained information."
+  },
+  {
+    "text": "Your device requires you to enter a recovery code if you forget your password.",
+    "correct": "Legit",
+    "explanation": "Recovery codes are legitimate security features for account recovery."
+  },
+  {
+    "text": "An email claims your utility service will be disconnected unless you pay immediately.",
+    "correct": "Scam",
+    "explanation": "Utility disconnection scams use urgency to pressure immediate payment."
+  },
+  {
+    "text": "Your router automatically isolates infected devices from the network.",
+    "correct": "Legit",
+    "explanation": "Automatic device isolation is an advanced security feature for preventing malware spread."
+  },
+  {
+    "text": "A message offers to help you get a fake professional certification.",
+    "correct": "Scam",
+    "explanation": "Fake certification services are fraudulent and can have serious professional consequences."
+  },
+  {
+    "text": "Your security camera system encrypts all recorded footage.",
+    "correct": "Legit",
+    "explanation": "Footage encryption is a standard security practice for protecting surveillance data."
+  },
+  {
+    "text": "You receive a call offering to help you get approved for a mortgage with bad credit.",
+    "correct": "Scam",
+    "explanation": "Bad credit mortgage scams often involve predatory lending or advance fee fraud."
+  },
+  {
+    "text": "Your password manager alerts you to potentially compromised accounts.",
+    "correct": "Legit",
+    "explanation": "Account compromise alerts are legitimate security features of password managers."
+  },
+  {
+    "text": "A website promises to help you get unlimited cloud storage for free.",
+    "correct": "Scam",
+    "explanation": "Unlimited free storage offers often involve malware or data theft."
+  },
+  {
+    "text": "Your device automatically enables security features when it detects public WiFi.",
+    "correct": "Legit",
+    "explanation": "Automatic security activation on public networks is a standard protection feature."
+  },
+  {
+    "text": "An email says you need to confirm your bank account information to receive a refund.",
+    "correct": "Scam",
+    "explanation": "Bank account confirmation scams steal financial information by mimicking legitimate requests."
+  },
+  {
+    "text": "Your antivirus software runs in a protected mode that prevents tampering.",
+    "correct": "Legit",
+    "explanation": "Protected mode operation is a standard security feature for antivirus software."
+  },
+  {
+    "text": "A message offers to sell you software that can break any encryption.",
+    "correct": "Scam",
+    "explanation": "Encryption breaking software claims are often scams and may involve illegal activities."
+  },
+  {
+    "text": "Your backup system creates checksums to verify data integrity.",
+    "correct": "Legit",
+    "explanation": "Checksum verification is a standard practice for ensuring backup data integrity."
+  },
+  {
+    "text": "You receive an email claiming your domain name is about to be taken by someone else.",
+    "correct": "Scam",
+    "explanation": "Domain name hijacking scams create urgency to sell unnecessary domain protection services."
+  },
+  {
+    "text": "Your smartphone encrypts all app data stored locally.",
+    "correct": "Legit",
+    "explanation": "Local app data encryption is a standard security feature in modern smartphones."
+  },
+  {
+    "text": "A website offers to help you get a fake insurance policy.",
+    "correct": "Scam",
+    "explanation": "Fake insurance policy services are illegal and provide no actual coverage."
+  },
+  {
+    "text": "Your email server uses reputation-based filtering to block suspicious senders.",
+    "correct": "Legit",
+    "explanation": "Reputation-based filtering is a standard email security practice."
+  },
+  {
+    "text": "An email says you need to update your emergency contact information.",
+    "correct": "Scam",
+    "explanation": "Emergency contact update scams steal personal information by mimicking official requests."
+  },
+  {
+    "text": "Your device requires biometric authentication to access secure folders.",
+    "correct": "Legit",
+    "explanation": "Biometric protection for secure folders is a legitimate security feature."
+  },
+  {
+    "text": "A message claims you can make money by participating in clinical trials from home.",
+    "correct": "Scam",
+    "explanation": "Fake clinical trial schemes often steal personal information or require upfront payments."
+  },
+  {
+    "text": "Your security software monitors network connections for data exfiltration.",
+    "correct": "Legit",
+    "explanation": "Data exfiltration monitoring is a standard security feature for preventing data theft."
+  },
+  {
+    "text": "You receive a call offering to help you get a fake reference letter.",
+    "correct": "Scam",
+    "explanation": "Fake reference letter services are fraudulent and can have serious employment consequences."
+  },
+  {
+    "text": "Your cloud storage service requires two-factor authentication for admin access.",
+    "correct": "Legit",
+    "explanation": "Two-factor authentication for admin access is a standard security requirement."
+  },
+  {
+    "text": "A website promises to help you get unlimited free shipping from online retailers.",
+    "correct": "Scam",
+    "explanation": "Unlimited free shipping offers often involve account theft or terms of service violations."
+  },
+  {
+    "text": "Your firewall automatically blocks traffic from known malicious IP addresses.",
+    "correct": "Legit",
+    "explanation": "Automatic blocking of malicious IPs is a standard firewall security feature."
+  },
+  {
+    "text": "An email claims you need to verify your social security number to receive benefits.",
+    "correct": "Scam",
+    "explanation": "Social security verification scams steal personal information by mimicking government agencies."
+  },
+  {
+    "text": "Your device encrypts all data before sending it to cloud backup services.",
+    "correct": "Legit",
+    "explanation": "Pre-upload encryption is a standard security practice for cloud backup services."
+  },
+  {
+    "text": "A message offers to help you get a fake military discharge certificate.",
+    "correct": "Scam",
+    "explanation": "Fake military document services are illegal and often steal money without delivering."
+  },
+  {
+    "text": "Your email client warns you about emails with suspicious attachment types.",
+    "correct": "Legit",
+    "explanation": "Suspicious attachment warnings are legitimate security features in email clients."
+  },
+  {
+    "text": "You receive an email saying your mortgage payment couldn't be processed.",
+    "correct": "Scam",
+    "explanation": "Mortgage payment scams steal financial information by mimicking legitimate payment issues."
+  },
+  {
+    "text": "Your security system creates audit trails for all access attempts.",
+    "correct": "Legit",
+    "explanation": "Audit trail creation is a standard security practice for monitoring and compliance."
+  },
+  {
+    "text": "A website offers to sell you software that can hack into smartphones.",
+    "correct": "Scam",
+    "explanation": "Smartphone hacking software sales are often scams and may involve illegal activities."
+  },
+  {
+    "text": "Your antivirus software scans files when they're accessed in real-time.",
+    "correct": "Legit",
+    "explanation": "Real-time file scanning is a standard feature of antivirus software."
+  },
+  {
+    "text": "An email claims you need to confirm your travel plans for security purposes.",
+    "correct": "Scam",
+    "explanation": "Travel confirmation scams steal personal information by mimicking official security requests."
+  },
+  {
+    "text": "Your smartphone asks for permission before allowing apps to send notifications.",
+    "correct": "Legit",
+    "explanation": "Notification permission requests are legitimate privacy protections."
+  },
+  {
+    "text": "A message offers to help you get a fake police clearance certificate.",
+    "correct": "Scam",
+    "explanation": "Fake police clearance services are illegal and often steal money without delivering."
+  },
+  {
+    "text": "Your router logs all DNS queries for security monitoring.",
+    "correct": "Legit",
+    "explanation": "DNS query logging is a standard security practice for monitoring network activity."
+  },
+  {
+    "text": "You receive a call offering to help you get a timeshare cancellation.",
+    "correct": "Scam",
+    "explanation": "Timeshare cancellation scams often charge fees for services that may not be effective."
+  },
+  {
+    "text": "Your password manager generates secure recovery codes for account backup.",
+    "correct": "Legit",
+    "explanation": "Secure recovery code generation is a standard feature of password managers."
+  },
+  {
+    "text": "A website promises to help you get fake employment history records.",
+    "correct": "Scam",
+    "explanation": "Fake employment history services are fraudulent and can have serious career consequences."
+  },
+  {
+    "text": "Your device automatically enables enhanced security when it detects tampering attempts.",
+    "correct": "Legit",
+    "explanation": "Automatic security enhancement against tampering is a standard protection feature."
+  },
+  {
+    "text": "An email says you need to update your health insurance beneficiary information.",
+    "correct": "Scam",
+    "explanation": "Health insurance beneficiary update scams steal personal and medical information."
+  },
+  {
+    "text": "Your email server uses sandboxing to safely analyze suspicious attachments.",
+    "correct": "Legit",
+    "explanation": "Sandboxing for attachment analysis is an advanced email security feature."
+  },
+  {
+    "text": "A message claims you can earn money by allowing others to use your WiFi network.",
+    "correct": "Scam",
+    "explanation": "WiFi sharing schemes may compromise your network security and involve illegal activities."
+  },
+  {
+    "text": "Your security camera system alerts you to motion in restricted areas.",
+    "correct": "Legit",
+    "explanation": "Motion alerts in restricted areas are legitimate security features."
+  },
+  {
+    "text": "You receive an email claiming your credit report contains errors that need immediate attention.",
+    "correct": "Scam",
+    "explanation": "Credit report error scams steal personal information by creating urgency about credit issues."
+  }
+]
